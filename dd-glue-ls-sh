@@ -1,0 +1,4 @@
+dd if=ls1 of=logstash.tar.gz bs=1024 count=76800
+dd if=ls2 of=logstash.tar.gz bs=1024 count=76800 seek=76800
+dd if=ls3 of=logstash.tar.gz bs=1024 count=76800 seek=153600
+dd if=ls4 of=logstash.tar.gz bs=1024 count=76800 seek=230400
